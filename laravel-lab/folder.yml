@@ -1,0 +1,12 @@
+info:
+  name: laravel-lab
+  type: folder
+  seq: 1
+
+request:
+  headers:
+    - name: Authorization
+      value: Bearer 2|J3EykhXuqcTIRgiJ9VsQi3AnE6CFtNNSeFrFjhzZdc7e9696
+  variables:
+    - name: URL
+      value: https://vigilant-goldfish-g47xqv45j49vfw95g-8000.app.github.dev/

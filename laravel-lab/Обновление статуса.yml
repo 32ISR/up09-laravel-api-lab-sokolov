@@ -1,0 +1,21 @@
+info:
+  name: Обновление статуса
+  type: http
+  seq: 6
+
+http:
+  method: PUT
+  url: "{{URL}}api/tickets/1"
+  body:
+    type: json
+    data: |-
+      {
+          "status": "in_progress"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
